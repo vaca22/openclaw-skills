@@ -1,0 +1,9 @@
+{
+  "name": "publish-skills",
+  "version": "1.0.0",
+  "author": "vaca22",
+  "description": "将本地 skills 打包并发布到 GitHub 仓库或 ClawHub",
+  "requires": {
+    "bins": ["gh", "git"]
+  }
+}
