@@ -1,0 +1,10 @@
+{
+  "name": "remove-watermark",
+  "version": "1.0.0",
+  "author": "vaca22",
+  "description": "去除图片水印 - 使用 OpenCV 和图像处理算法",
+  "requires": {
+    "bins": ["python3"],
+    "pip": ["opencv-python", "numpy"]
+  }
+}
