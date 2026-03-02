@@ -1,0 +1,40 @@
+# AI Remove Watermark - Requirements
+
+## 基础安装 (推荐 - LaMa 模型)
+```
+onnxruntime>=1.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+```
+
+## 完整安装 (所有模型)
+```
+# 基础依赖
+onnxruntime>=1.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# PyTorch (用于 MAT 和 SD)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Stable Diffusion
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# 图像处理
+Pillow>=9.0.0
+```
+
+## 安装命令
+
+### macOS
+```bash
+pip3 install onnxruntime opencv-python numpy --break-system-packages
+```
+
+### 完整安装 (GPU 支持)
+```bash
+pip3 install torch torchvision diffusers transformers accelerate --break-system-packages
+```

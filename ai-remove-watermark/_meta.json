@@ -1,0 +1,13 @@
+{
+  "name": "ai-remove-watermark",
+  "version": "1.0.0",
+  "author": "vaca22",
+  "description": "AI 深度学习去水印 - 使用 LaMa/MAT/SD 模型",
+  "requires": {
+    "bins": ["python3"],
+    "pip": ["onnxruntime", "opencv-python", "numpy"]
+  },
+  "optional": {
+    "pip": ["torch", "diffusers", "transformers"]
+  }
+}
